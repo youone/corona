@@ -25,6 +25,7 @@
     "webpack-cli": "^4.9.2"
   },
   "devDependencies": {
+    "node-wget": "^0.4.3",
     "webpack-dev-server": "^4.7.3"
   }
 }
