@@ -6,7 +6,7 @@ global rates;
 % b*a*exp(a+b*(x)-a*exp(b*(x)))+c
 % d*(1/b)*exp(-(((x-c)-a)/b)-exp(-(((x-c)-a)/b)))
 
-rates = jsondecode(fileread('..\..\data\ft_rates_new.json'));
+rates = jsondecode(fileread('..\..\..\data\ft_rates_new.json'));
 % rates = jsondecode(fileread('data\worldData.json'));
 
 nmean = 14;
@@ -251,7 +251,7 @@ function [deaths, day2] = getDeathsSweden(sweden, nmean, shift)
 
     day2 = datetime(day1,'ConvertFrom','datenum') + shift;
     
-    sDeaths = load('..\..\data\sverige_new.txt');
+    sDeaths = load('..\..\..\data\sverige_new.txt');
     d = [sweden.timeSeries.new_deaths];
     
     d = zeros(size(d));

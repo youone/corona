@@ -1,1 +1,6 @@
 /matlab/model/data
+/data/forum/
+/matlab/model/simulation/cmake-build-debug/
+/node_modules/
+/.idea/
+/matlab/model/simulation/cmake-build-release-docker-wasm/

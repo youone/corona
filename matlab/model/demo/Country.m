@@ -37,8 +37,10 @@ classdef Country < handle
             else
                 obj.name = name;
             end
+            
 %             cdata = obj.getCountry('world', obj.name);
 %             obj.population = cdata.population;
+
             obj.population = 1000000;
             obj.loadData();
             obj.dates
